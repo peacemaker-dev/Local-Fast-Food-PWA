@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart | Fast Food</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="about-header">
+        <h2>Your Cart</h2>
+        <p>Review your order before checkout</p>
+    </header>
+
+    <!-- Cart Main Content -->
+    <main class="cart-main-content">
+        <section class="cart-items-list">
+            <div class="cart-item">
+                <div class="image-remove-container">
+                    <img src="images/beef-burger.jpeg" alt="Burger Image" class="cart-item-image">
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="cart-item-details">
+                    <h4>Cheese Burger</h4>
+                    <p>Quantity: 2</p>
+                    <div class="quantity-controls">
+                        <a class="add-btn"><img src="images/add.png" width="30" height="30"></a>
+                        <a class="minus-btn"><img src="images/delete.png" width="30" height="30"></a>
+                    </div>
+                    <h4 class="price">Price: R35.00</h4>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="image-remove-container">
+                    <img src="images/small-fried-chips.jpeg" alt="Fries Image" class="cart-item-image">
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="cart-item-details">
+                    <h4>Large Chips</h4>
+                    <p>Quantity: 1</p>
+                    <div class="quantity-controls">
+                        <a class="add-btn"><img src="images/add.png" width="30" height="30"></a>
+                        <a class="minus-btn"><img src="images/delete.png" width="30" height="30"></a>
+                    </div>
+                    <h4 class="price">Price: R35.00</h4>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <h3>Total: R70.00</h3>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-nav">
+        <ul>
+            <li class="list-item">
+                <a href="menu.html">
+                    <img src="images/restaurant.png" alt="Menu icon" width="26" height="26">
+                    <span class="text">Menu</span>
+                </a>
+            </li >
+            <li class="list-item active">
+                <a href="cart.html">
+                    <img src="images/grocery-store.png" alt="Cart icon" width="26" height="26">
+                    <span class="text">Cart</span>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="index.html">
+                    <img src="images/home.png" alt="Home" width="26" height="26">
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="#">
+                    <img src="images/favorite.png" alt="Favorite icon" width="26" height="26">
+                    <span class="text">Favorites</span>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="about.html">
+                    <img src="images/info.png" alt="About icon" width="26" height="26">
+                    <span class="text">About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
