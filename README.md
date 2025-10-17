@@ -18,15 +18,8 @@ Languages: HTML (66.7%), CSS (33.3%)
 - **pricing.html** or pricing section: Pricing structure, combos, delivery fees, and any surge/extra-fee notes.
 - **faq.html**: Frequently asked questions about ordering, allergens, delivery/pickup times, and cancellation/refund policies.
 - **contact.html**: Contact details, WhatsApp ordering link, business hours, and location/coverage information.
-- **terms.html / privacy.html**: (If present) Legal, refund, and privacy information for customers.
 - **style.css** (or styles/ folder): Central stylesheet implementing mobile-first responsive layouts and the visual system.
-- **assets/** or **images/**: Icons, logos, menu images, and other site images used across pages.
-- **fonts/**: Any local web fonts used (if included).
-- **manifest.json / service-worker.js**: (If present) PWA manifest and basic service worker for offline support and installability.
-- **sitemap.xml / robots.txt**: SEO and crawler guidance (if present).
 - **README.md**: This document — project overview and contributor info.
-
-(If your repo uses different filenames or organizes pages into subfolders, update the list above to match your structure.)
 
 ## Features & Functionality
 
@@ -38,7 +31,7 @@ Languages: HTML (66.7%), CSS (33.3%)
 - Lightweight HTML & CSS only — built for speed, minimal load, and compatibility with low-bandwidth connections.
 - Accessibility-minded markup (semantic HTML, readable type sizes, clear call-to-action contrast).
 - Local customer convenience: localized copy, contact methods, and business hours tailored to the service area.
-- Progressive Web App basics (optional): manifest and service worker for installability and basic offline caching if included.
+- Progressive Web App basics: manifest and service worker for installability and basic offline caching if included.
 
 ## How to Use / Deploy
 
@@ -63,7 +56,7 @@ No license file provided. All rights reserved by the project owner unless they s
 
 ## Contact
 - GitHub: https://github.com/peacemaker-dev
-- For urgent ordering support: use the WhatsApp ordering link provided in the site pages (update the link in contact.html/index.html).
+- For urgent ordering support: use the WhatsApp ordering link provided in the site pages.
 
 ## Notes
 - Built with HTML5 and CSS3.
